@@ -1,7 +1,6 @@
 from pyspark.sql import Row
 import pytest
-from pyspark.sql import functions as F
-from src.filter_stocks import filter_above_400
+from databricks.functions.functions.filter_stocks import filter_above_400
 from chispa.dataframe_comparer import assert_df_equality
 
 
